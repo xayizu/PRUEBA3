@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.css">
-    <meta name="description" content="Explora el blog personal de Luis con contenido sobre diseño gráfico, fotografía y el fascinante mundo militar.">
+    <meta name="description" content="Explora el blog personal con contenido sobre diseño gráfico, fotografía y el fascinante mundo militar.">
 </head>
 <body>
     <!-- Encabezado con navegación -->
@@ -37,14 +37,19 @@
                 Bienvenido a mi blog personal, un espacio donde comparto mis ideas, pasiones y proyectos. Aquí encontrarás contenido relacionado con <strong>diseño gráfico</strong>, <strong>fotografía</strong>, y el fascinante <strong>mundo militar</strong>.
             </p>
 
-
+        <!-- Contenedor para el iframe que contiene el tour virtual -->
+        <div class="iframe-container">
+            <!-- Iframe para mostrar el tour virtual -->
             <iframe 
-            id="tourIframe" 
-            src="tour\index.htm" 
-            width="100%" 
-            style="border: none; display: block; overflow: hidden;" 
-            title="Tour Virtual">
-        </iframe>
+                id="tourIframe" 
+                src="tour/index.htm" 
+                width="100%" 
+                height="600px"  
+                style="border: none; display: block; overflow: hidden;" 
+                title="Tour Virtual">
+            </iframe>
+        </div>
+
         
         <script>
             // Ajusta la altura del iframe dinámicamente
