@@ -24,7 +24,7 @@ body {
 
 /*🟢 HEADER Y FOOTER */
 header, footer {
-  background: linear-gradient(to right, #b90000, #1b1b1b); /* Degradado de rojo a negro */
+  background: linear-gradient(to right, #c7c400, #1b1b1b); /* Degradado de rojo a negro */
   color: #fff; /* Color del texto en blanco */
   text-align: center; /* Centra el texto solo del header*/
   padding: 15px 0; /* Espaciado interno superior e inferior */
@@ -76,54 +76,12 @@ nav ul li a:hover {
 
 /*🟡________________________________________________________________________________________________*/
 
-/*🟢 Contenedor del video */
-.video-container {
-  margin: 20px auto; /* Centra horizontalmente el contenedor con márgenes automáticos */
-  width: 100%; /* Ocupa el 100% del ancho disponible del contenedor padre */
-  max-width: 1000px; /* Limita el ancho máximo a 800px para pantallas grandes */
-  aspect-ratio: 16 / 9; /* Mantiene una proporción de aspecto 16:9 (relación estándar para videos) */
-  position: relative; /* Define posición relativa para manejar contenido interno si es necesario */
-}
-
-/* Estilos para el iframe del video */
-.video-container iframe {
-  width: 100%; /* El iframe ocupa el 100% del ancho del contenedor */
-  height: 100%; /* El iframe ocupa el 100% de la altura del contenedor, respetando el aspect-ratio */
-  border-radius: 10px; /* Aplica esquinas redondeadas al iframe */
-  border: none; /* Elimina cualquier borde predeterminado del iframe */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Agrega una sombra alrededor del iframe para darle profundidad */
-}
-/*🔴 CONTENEDOR DEL VIDEO */
-
-/*🟡________________________________________________________________________________________________*/
-
-/*🟢 (GALLERY.HTML) BOTONES */
-.download-button {
-  display: inline-block;
-  text-decoration: none;
-  background-color: #ff0000;
-  color: #ffffff;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 14px;
-  font-weight: bold;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.download-button:hover {
-  background-color: #b30000;
-  transform: scale(1.1);
-}
-/*🔴 (GALLERY.HTML) BOTONES */
-
-/*🟡________________________________________________________________________________________________*/
-
 /*🟢 ANIMACION DE FONDO 3 COLORES */
 /* Variables CSS para colores y configuraciones de animación */
 :root {
   --color1: #ffffff; /* Primer color del degradado */
-  --color2: #fd3131; /* Segundo color del degradado */
-  --opacity: 0.5; /* Opacidad de las capas */
+  --color2: #eeff00; /* Segundo color del degradado */
+  --opacity: 1; /* Opacidad de las capas */
   --duration-bg: 3s; /* Duración predeterminada de la animación */
   --duration-bg2: 4s; /* Duración de la animación de la capa 2 */
   --duration-bg3: 5s; /* Duración de la animación de la capa 3 */
